@@ -1,0 +1,28 @@
+/* breadcrumb */
+
+.breadcrumb {
+  display: flex;
+  flex-direction: row;
+}
+
+.breadcrumb__list {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.breadcrumb__link,
+.breadcrumb__divisor {
+  color: #AEB6C1;
+  ;
+}
+
+.breadcrumb__link--active {
+  color: #AEB6C1;
+  ;
+  font-weight: 700;
+}
+
+.breadcrumb__link:hover {
+  font-weight: 700;
+}
