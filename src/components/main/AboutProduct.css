@@ -1,0 +1,160 @@
+/* Product Info */
+.product__info {
+  display: flex;
+  flex-direction: column;
+  width: 440px;
+  height: 535px;
+  border: 2px solid #D2E1DF;
+  margin-left: 106px
+}
+
+.product__name {
+  width: 406px;
+  height: 50px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-top: 20px;
+  /* background-color: #DE8F75; */
+}
+
+.name {
+  display: flex;
+  font-weight: 700;
+  font-size: 26px;
+  color: #202020;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.ref {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #202020;
+}
+
+/* Product Price */
+.product__price {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 234px;
+  height: 52px;
+  margin-left: 18px;
+  margin-top: 18px;
+  /* background-color: blueviolet; */
+}
+
+.price {
+  width: 74px;
+  height: 20px;
+  padding-top: 3px;
+  color: #E35442;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.sale {
+  width: 154px;
+  height: 24px;
+  color: #686868;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.installments {
+  width: 154px;
+  height: 20px;
+  font-weight: 400;
+  color: #7F7F7F;
+  ;
+}
+
+/* Product Colors */
+.product__colors {
+  width: 194px;
+  height: 68px;
+  margin-left: 18px;
+  margin-top: 30px;
+  /* background-color: aliceblue; */
+}
+
+.elipse {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-color: #A9095E;
+  margin-right: 16px;
+  border: 2px solid #DE8F75;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Product Size */
+.product__size {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 368px;
+  height: 71px;
+  margin-left: 18px;
+  margin-top: 18px;
+  /* background-color: azure; */
+}
+
+.size {
+  width: 78px;
+  height: 36px;
+}
+
+.number {
+  width: 132px;
+  height: 36px;
+}
+
+/* .tableOfSizes {
+
+} */
+
+.guide {
+  color: #DE8F75;
+  text-decoration: underline;
+  font-size: 14px;
+  width: 154px;
+  height: 36px;
+  cursor: pointer;
+}
+
+/* Purchase Button */
+.purchase__button {
+  width: 404px;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 52px;
+  background-color: #32917B;
+  border: none;
+  border-radius: 2px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Product Description */
+.product__description {
+  width: 404px;
+  height: 62px;
+  margin-left: 18px;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  color: #202020;
+}
+
+

@@ -3,12 +3,10 @@ import '../global.css'
 import './Header.css';
 
 
-
 function Header() {
   return(
     <>
     <header className="header">
-      <div className="container">
         <div className="header__logo">
           <a href="/" className="logo__link">
             <svg className="logo" width="148" height="34" viewBox="0 0 148 34" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -16,7 +14,6 @@ function Header() {
             </svg>
           </a>
         </div>
-      </div>
     </header>
     <nav className="menu">
       {/* <div className="container"> */}

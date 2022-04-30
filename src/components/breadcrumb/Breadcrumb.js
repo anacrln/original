@@ -5,7 +5,6 @@ function Breadcrumb() {
   return(
     <>
       <section className="breadcrumb">
-        <div className="container">
           <ul className="breadcrumb__list">
             <li className="breadcrumb__item">
               <a href="/" className="breadcrumb__link">
@@ -19,7 +18,6 @@ function Breadcrumb() {
               </a>
             </li>
           </ul>
-        </div>
       </section>
     </>
   )

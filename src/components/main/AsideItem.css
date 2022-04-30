@@ -1,0 +1,23 @@
+ /* .product__midia {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+} */
+/*
+.product__midia:first-child{
+  height: 45px;
+  width: 82px;
+}  */
+
+.product__midia:hover{
+  cursor:pointer;
+  opacity: 0.5;
+}
+
+.product__midia:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.arrow__icon {
+  margin-left: 25px;
+}

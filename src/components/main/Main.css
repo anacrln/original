@@ -1,0 +1,33 @@
+
+* {
+  font-family: 'Monteserrat', sans-serif;
+}
+.main__container {
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.aside__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 82px;
+  height: 600px;
+  margin: 0 0 0 111px;
+}
+
+.aside__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #DE8F75;
+  width: 82px;
+  height: 28px;
+}
+
+.product img {
+  width: 430px;
+  height: 556px;
+  margin-left: 56px;
+} 
+
