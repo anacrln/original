@@ -1,0 +1,51 @@
+/* Purchase Button */
+.purchase__button, .buy {
+  width: 404px;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 52px;
+  background-color: #32917B;
+  border: none;
+  border-radius: 2px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.close__btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.close {
+  display: flex;
+  margin-top: 12px;
+  margin-right: 14px;
+  width: 445px;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.buy {
+  width: 305px;
+  height: 50px;
+  font-size: 14px;
+  margin: 0;
+  margin-top: 9px;
+}
+
+.continue {
+  text-align: center;
+  width: 290px;
+  height: 36px;
+  margin-top: 8px;
+}
+
+.continue__link {
+  text-decoration: underline;
+  color: rgba(174, 182, 193, 1);
+}

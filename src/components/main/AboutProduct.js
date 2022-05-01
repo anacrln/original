@@ -1,5 +1,6 @@
 import React from "react";
 import './AboutProduct.css'
+import Button from './Button'
 
 function AboutProduct(props) {
   return(
@@ -33,9 +34,7 @@ function AboutProduct(props) {
             <div className="guide">Guia de Medidas</div>
             <div className="tableOfSizes"></div>
       </div>
-
-      <button className="purchase__button" type="submit">Adicionar à sacola</button>
-
+      <Button />
       <div className="product__description">
         <p className="description">Rasteira em atanado soft com tira no dedo e fechamento de fivela. Possui sola sempre na cor do cabedal.</p>
       </div>
