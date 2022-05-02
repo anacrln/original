@@ -1,0 +1,140 @@
+.click__bag {
+  border: none;
+  background-color: transparent;
+}
+
+.bag__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.bag__title {
+  margin: 0;
+  margin-left: 40px;
+  font-size: 26px;
+  color: rgba(222, 143, 117, 1);
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.qtd {
+  width: 467px;
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 40px;
+  font-size: 18px;
+  font-weight: 400;
+  border-bottom: 2px solid #e3e3e3;
+  color: rgba(174, 182, 193, 1);
+}
+
+.bag__items {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  align-items: center;
+  width: 525px;
+  height: 592px;
+  /* background-color: blueviolet; */
+}
+
+.bag__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 440px;
+  height: 84px;
+}
+
+.img {
+  width: 46px;
+  height: 60px;
+}
+
+.bag__info {
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+  height: 40px;
+  margin-left: 20px;
+  /* background-color: royalblue; */
+  justify-content: center;
+}
+
+.product {
+  color: #202020;
+}
+
+.prPrice {
+  font-weight: 700;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.frete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 525px;
+  height: 60px;
+  background-color: #AEB6C1;
+}
+
+.frete__text {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 162%;
+}
+
+.frete__bold {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  width: 525px;
+  height: 90px;
+  background-color: rgba(227, 227, 227, 1);
+}
+
+.total__price {
+  width: 180px;
+  height: 42px;
+}
+
+.total__text, .total__installments {
+  margin: 0;
+  margin-left: 30px;
+}
+
+.total__text {
+  font-size: 16px;
+  font-weight: 700;
+  color:#202020
+}
+
+.total__installments {
+  font-weight: 500;
+  color: #000000;
+  line-height: 18px;
+}
+
+.button__container {
+  display: flex;
+  margin-left: 60px;
+}
+
+.bag__finish {
+  width: 236px;
+  height: 42px;
+  background-color: #32917B;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 20px;
+  border: none;
+  border-radius: 3px;
+}

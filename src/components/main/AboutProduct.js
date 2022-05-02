@@ -17,12 +17,12 @@ function AboutProduct(props) {
       </div>
 
       <div className="product__colors">
-        <p className="color__selection">Cor: <span>Fucsia</span> </p>
+        <p className="color__selection">Cor: <span className="color__selected">(Fucsia)</span> </p>
         <div className="elipses">
-        <span className="elipse"></span>
-        <span className="elipse"></span>
-        <span className="elipse"></span>
-        <span className="elipse"></span>
+        <span className="elipse --select fucsia"></span>
+        <span className="elipse blue"></span>
+        <span className="elipse brown"></span>
+        <span className="elipse black"></span>
         </div>
       </div>
 
@@ -30,9 +30,20 @@ function AboutProduct(props) {
         <div className="size">
           Tamanho:
         </div>
-            <span className="number"> 37</span>
+            <span className="number">(37)</span>
             <div className="guide">Guia de Medidas</div>
-            <div className="tableOfSizes"></div>
+            <div className="tableOfSizes">
+              <div className="size__number">33</div>
+              <div className="size__number">34</div>
+              <div className="size__number">35</div>
+              <div className="size__number">36</div>
+              <div className="size__number --active">37</div>
+              <div className="size__number">38</div>
+              <div className="size__number">39</div>
+              <div className="size__number">40</div>
+              <div className="size__number">41</div>
+              <div className="size__number">42</div>
+            </div>
       </div>
       <Button />
       <div className="product__description">

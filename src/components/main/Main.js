@@ -10,7 +10,7 @@ function Main() {
   return(
     <main className="main__container">
     <aside className="aside__container">
-      <spam className="aside__title">Vídeo</spam>
+      <span className="aside__title">Vídeo</span>
       {/* <AsideItem src={MiniVideo} /> */}
       <img src={MiniVideo} alt="vídeo mostrando a sandália com mais detalhes" />
       <svg className="arrow__icon" width="32" height="28" viewBox="0 0 32 28" fill="none" xmlns="http://www.w3.org/2000/svg">
