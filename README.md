@@ -3,8 +3,6 @@
 #### Ainda falta fazer a responsividade
 
 ## Objetivos 
-
-Praticar React.
 <ul>
   <li>Praticar React</li>
   <li>Responsividade</li>
