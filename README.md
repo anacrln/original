@@ -11,7 +11,7 @@
 ## Pré-requisitos 🖊️
 
 - Antes de realizar a visualização da página, será necessário ter instalado em sua máquina as ferramentas Git, React e Node.js.
-- Para visualização do código, é necessário um editor código como <a href="https://code.visualstudio.com/">VSCode</a>.
+- Para visualização do código, é necessário um editor de código como o <a href="https://code.visualstudio.com/">VSCode</a>.
 
 ## Executar o projeto 💻
 
