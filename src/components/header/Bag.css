@@ -38,38 +38,6 @@
   /* background-color: blueviolet; */
 }
 
-.bag__item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  width: 440px;
-  height: 84px;
-}
-
-.img {
-  width: 46px;
-  height: 60px;
-}
-
-.bag__info {
-  display: flex;
-  flex-direction: column;
-  width: 140px;
-  height: 40px;
-  margin-left: 20px;
-  /* background-color: royalblue; */
-  justify-content: center;
-}
-
-.product {
-  color: #202020;
-}
-
-.prPrice {
-  font-weight: 700;
-  font-size: 14px;
-  color: rgba(0, 0, 0, 1);
-}
 
 .frete {
   display: flex;
@@ -137,4 +105,10 @@
   line-height: 20px;
   border: none;
   border-radius: 3px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.bag__finish:hover {
+  background-color: #167962
 }

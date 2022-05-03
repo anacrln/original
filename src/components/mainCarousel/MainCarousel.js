@@ -54,6 +54,8 @@ function MainCarousel() {
           </div>
       </div>
       </div>
+            {/* <div className="slide__arrows">
+            </div> */}
     </div>
   )
 }

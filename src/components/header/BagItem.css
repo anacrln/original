@@ -1,0 +1,52 @@
+.bag__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 440px;
+  height: 84px;
+}
+
+.img {
+  width: 46px;
+  height: 60px;
+}
+
+.bag__info {
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+  height: 40px;
+  margin-left: 20px;
+  /* background-color: royalblue; */
+  justify-content: center;
+}
+
+.product {
+  color: #202020;
+}
+
+.prPrice {
+  font-weight: 700;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.itemQtd {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 228px;
+  height: 34px;
+  color: rgba(174, 182, 193, 1);
+}
+
+.removeItem, .addItem {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.deleteItem {
+  cursor: pointer;
+}

@@ -65,6 +65,13 @@
   line-height: 200%;
   color: rgba(32, 32, 32, 1);
   cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.institu__items:hover,
+.info__items:hover,
+.conheca__items:hover {
+  color: #DE8F75;
 }
 
 .institu__items:first-child,
@@ -143,7 +150,6 @@ form {
   text-transform: uppercase;
   cursor: pointer;
 }
-
 
 .rights {
   display: flex;

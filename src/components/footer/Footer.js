@@ -33,7 +33,7 @@ function Footer() {
             <li className="institu__items">Lojas</li>
             <li className="institu__items">Contato</li>
           </ul>
-
+          
           <ul className="info__list">
             <li className="info__items">Informações</li>
             <li className="info__items">Formas de Pagamento</li>

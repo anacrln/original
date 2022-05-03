@@ -45,6 +45,16 @@
   flex-grow: 4;
 }
 
+.menu__link--signin,
+.menu__link--categories {
+  transition: all .3s ease-in-out;
+}
+
+.menu__link--signin:hover,
+.menu__link--categories:hover {
+  color: #DE8F75;
+}
+
 .menu__list--signin {
   gap: 14px;
 }

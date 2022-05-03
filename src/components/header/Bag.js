@@ -5,6 +5,7 @@ import Sandalia from '../img/MiniImage.png'
 import BagImage from '../img/bag.png'
 import Rasteira from '../img/rasteira.png'
 import Carteira from '../img/carteira.png'
+ import BagItem from './BagItem'
 
 
 function Bag() {
@@ -33,42 +34,22 @@ function Bag() {
           <span className="qtd">5 Itens</span>
           </div>
            <div className="bag__items">
-            <div className="bag__item">
-              <img className="img" src={Sandalia} alt="n sei" />
-              <div className="bag__info">
-              <span className="product">Rasteira Tira Dedo</span>
-              <span className="prPrice" >R$ 49,90</span>
-              </div>
-            </div>
-            <div className="bag__item">
-              <img className="img" src={Carteira} alt="n sei" />
-              <div className="bag__info">
-              <span className="product">Rasteira Tira Dedo</span>
-              <span className="prPrice" >R$ 49,90</span>
-              </div>
-            </div> 
-            <div className="bag__item">
-              <img className="img" src={BagImage} alt="n sei" />
-              <div className="bag__info">
-              <span className="product">Rasteira Tira Dedo</span>
-              <span className="prPrice" >R$ 49,90</span>
-              </div>
-            </div> 
-            <div className="bag__item">
-              <img className="img" src={Rasteira} alt="n sei" />
-              <div className="bag__info">
-              <span className="product">Rasteira Tira Dedo</span>
-              <span className="prPrice" >R$ 49,90</span>
-              </div>
-            </div> 
-            <div className="bag__item">
-              <img className="img" src={Sandalia} alt="n sei" />
-              <div className="bag__info">
-              <span className="product">Rasteira Tira Dedo</span>
-              <span className="prPrice" >R$ 49,90</span>
-              </div>
-            </div> 
-          </div> 
+             <BagItem src={Sandalia} alt={"sandalia"}
+             nameProd={"Rasteira tira dedo"}
+             price={"R$ 49,90"}/>
+             <BagItem src={Carteira} alt={"Bolsa"}
+              nameProd={"Rasteira tira dedo"}
+              price={"R$ 49,90"} />
+             <BagItem src={BagImage} alt={"sandalia"}
+              nameProd={"Rasteira tira dedo"}
+              price={"R$ 49,90"} />
+             <BagItem src={Rasteira} alt={"rasteirinha"}
+              nameProd={"Rasteira tira dedo"}
+              price={"R$ 49,90"}  />  
+             <BagItem src={Sandalia} alt={"Sandalia"}
+              nameProd={"Rasteira tira dedo"}
+              price={"R$ 49,90"} />  
+          </div>  
           <div className="frete">
             <p className="frete__text">Faltam R$ XX,XX para você <span className="frete__bold">Ganhar Frete Grátis</span>
             </p>
