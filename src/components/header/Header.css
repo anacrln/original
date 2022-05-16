@@ -48,6 +48,9 @@
 .menu__link--signin,
 .menu__link--categories {
   transition: all .3s ease-in-out;
+  color: rgba(104, 104, 104, 1);
+  font-weight: 400;
+  line-height: 18px;
 }
 
 .menu__link--signin:hover,

@@ -1,5 +1,6 @@
 import React from "react";
 import './Main.css'
+import Breadcrumb from "../breadcrumb/Breadcrumb";
 import MiniVideo from '../img/MiniVideo.png'
 import MiniImage from '../img/MiniImage.png'
 import BigImage from '../img/BigImage.png'
@@ -8,6 +9,8 @@ import AboutProduct from "./AboutProduct";
 
 function Main() {
   return(
+    <>
+    <Breadcrumb />
     <main className="main__container">
     <aside className="aside__container">
       <span className="aside__title">Vídeo</span>
@@ -29,6 +32,7 @@ function Main() {
     </div>
       <AboutProduct />
     </main>
+    </>
   )
 }
 
