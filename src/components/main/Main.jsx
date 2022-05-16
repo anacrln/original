@@ -25,7 +25,7 @@ function Main() {
       </svg>
     </aside>
     <div className="product">
-      <img src={BigImage} />
+      <img src={BigImage} alt="Produto"/>
     </div>
       <AboutProduct />
     </main>
